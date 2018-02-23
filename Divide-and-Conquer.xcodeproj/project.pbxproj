@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76A743C1203FAE8A005B4536 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A743C0203FAE8A005B4536 /* MergeSort.cpp */; };
+		76A743C820406113005B4536 /* BinarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A743C720406113005B4536 /* BinarySearch.cpp */; };
+		76A743CD2040654B005B4536 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A743CC2040654B005B4536 /* MergeSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		76A743BD203FAE8A005B4536 /* Divide-and-Conquer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Divide-and-Conquer"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76A743C0203FAE8A005B4536 /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		76A743C720406113005B4536 /* BinarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearch.cpp; sourceTree = "<group>"; };
+		76A743CC2040654B005B4536 /* MergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 		76A743BF203FAE8A005B4536 /* Divide-and-Conquer */ = {
 			isa = PBXGroup;
 			children = (
-				76A743C0203FAE8A005B4536 /* MergeSort.cpp */,
+				76A743CC2040654B005B4536 /* MergeSort.cpp */,
+				76A743C720406113005B4536 /* BinarySearch.cpp */,
 			);
 			path = "Divide-and-Conquer";
 			sourceTree = "<group>";
@@ -119,7 +122,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76A743C1203FAE8A005B4536 /* MergeSort.cpp in Sources */,
+				76A743CD2040654B005B4536 /* MergeSort.cpp in Sources */,
+				76A743C820406113005B4536 /* BinarySearch.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
